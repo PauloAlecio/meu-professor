@@ -7,6 +7,6 @@ for (let teacherForm of teacherForms) {
     let hours = teacherForm.hours.value;
     let total = price * hours;
 
-    alert("O valor total do contrato é de R$ " + total);
+    alert("O valor total do contrato é de R$ " + total + ",00 reais");
   });
 }
